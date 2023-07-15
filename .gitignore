@@ -8,7 +8,9 @@
 /[Bb]uild/
 /[Bb]uilds/
 /[Ll]ogs/
+/[Mm]emoryCaptures/
 /[Uu]ser[Ss]ettings/
+UserSettings/EditorUserSettings.asset
 
 # MemoryCaptures can get excessive in size.
 # They also could contain extremely sensitive data
@@ -16,6 +18,9 @@
 
 # Recordings can get excessive in size
 /[Rr]ecordings/
+
+# Asset meta data should only be ignored when the corresponding asset is also ignored
+!/[Aa]ssets/**/*.meta
 
 # Uncomment this line if you wish to ignore the asset store tools plugin
 # /[Aa]ssets/AssetStoreTools*
@@ -25,6 +30,7 @@
 
 # Visual Studio cache directory
 .vs/
+.idea/
 
 # Gradle cache directory
 .gradle/
@@ -51,6 +57,7 @@ ExportedObj/
 *.pidb.meta
 *.pdb.meta
 *.mdb.meta
+.DS_Store
 
 # Unity3D generated file on crash reports
 sysinfo.txt
