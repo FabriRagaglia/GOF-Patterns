@@ -8,4 +8,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/SinglentonPattern/Scene/SinglentonScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/AbstractFactoryPattern/AbstractFactory.unity
+    guid: 719fd134a7a049f45987aa2f37c7925f
   m_configObjects: {}
