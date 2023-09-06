@@ -21,7 +21,7 @@ namespace ObserverPatern
         {
             foreach (var observer in _observers)
             {
-                observer.Update(this);
+                observer.UpdateObserver(this);
             }
         }
 

@@ -6,6 +6,6 @@ namespace ObserverPatern
 {
     public interface Observer
     {
-        void Update(Subject subject);
+        void UpdateObserver(Subject subject);
     }
 }

@@ -9,7 +9,7 @@ namespace ObserverPatern
     {
         [SerializeField] private TextMeshProUGUI _health;
 
-        public void Update(Subject subject)
+        public void UpdateObserver(Subject subject)
         {
             if(subject is Hero hero)
             {
